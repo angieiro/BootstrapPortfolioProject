@@ -21,7 +21,7 @@
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 240px;
-  background-color: #777;
+  background-image: url("keyboard.jpg");
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -31,6 +31,10 @@
   height: 240px;
 }
 
+.carousel h1 {
+  color: #FFB2B2;
+}
+
 @media (min-width: 768px) {
 
   /* Bump up size of carousel content */
@@ -38,6 +42,7 @@
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
+    color: #FFB2B2;
   }
 
 }
@@ -56,10 +61,10 @@
 
 .marketing .col-md-4 .glyphicon {
   font-size: 60px;
-  background-color: #EAEAEA;
+  background-color: #993D3D;
   border-radius: 50%;
   padding: 40px;
-  color: #444;
+  color: color: #CCCA14;;
 }
 
 
@@ -83,7 +88,7 @@ footer {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 160px;
-  background: #444;
+  background: #7F5959;
   color: white;
   text-shadow: 1px 1px 1px black;
   padding: 40px 0;
